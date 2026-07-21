@@ -1,0 +1,18 @@
+# Build output
+bin/
+obj/
+
+# Test output
+TestResults/
+*.trx
+coverage/
+coverage.cobertura.xml
+
+# IDE/user files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+.DS_Store

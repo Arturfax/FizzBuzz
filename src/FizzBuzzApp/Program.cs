@@ -4,7 +4,7 @@ namespace FizzBuzzApp
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             string input =
                 "Mary had a little lamb\n" +

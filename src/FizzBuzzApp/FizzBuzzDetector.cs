@@ -3,8 +3,21 @@ using System.Text;
 
 namespace FizzBuzzApp
 {
+    /// <summary>
+    /// Replaces every third word with Fizz, every fifth word with Buzz, and words
+    /// that are both third and fifth matches with FizzBuzz.
+    /// </summary>
     public class FizzBuzzDetector
     {
+        /// <summary>
+        /// Processes the supplied text and returns the transformed output with replacement counts.
+        /// </summary>
+        /// <param name="input">Input text between 7 and 100 characters, inclusive.</param>
+        /// <returns>The transformed text and replacement summary.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when <paramref name="input" /> is null.</exception>
+        /// <exception cref="ArgumentException">
+        /// Thrown when <paramref name="input" /> is shorter than 7 characters or longer than 100 characters.
+        /// </exception>
         public FizzBuzzResult getOverlappings(string input)
         {
             if (input == null)
